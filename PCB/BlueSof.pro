@@ -1,4 +1,4 @@
-update=Saturday, November 28, 2020 at 02:29:24 PM
+update=Tuesday, December 08, 2020 at 09:29:50 PM
 version=1
 last_client=kicad
 [general]
@@ -69,7 +69,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.2
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -250,8 +250,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=GND
-Clearance=0.2
-TrackWidth=0.5
+Clearance=0.25
+TrackWidth=0.3
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
@@ -261,8 +261,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=VCC
-Clearance=0.2
-TrackWidth=0.5
+Clearance=0.25
+TrackWidth=0.3
 ViaDiameter=0.4
 ViaDrill=0.3
 uViaDiameter=0.3
