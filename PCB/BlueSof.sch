@@ -2315,5 +2315,5 @@ RESET2
 Text GLabel 900  5700 0    50   Input ~ 0
 RESET
 Text GLabel 2100 5000 1    50   Input ~ 0
-P0.05_2
+P0.05
 $EndSCHEMATC
