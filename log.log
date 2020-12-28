@@ -1,0 +1,1202 @@
+[2020-Dec-23 14:49:02] [ info] --------------------------------------------------------------------------------
+[2020-Dec-23 14:49:02] [ info] nrfjprog --recover --log 
+[2020-Dec-23 14:49:02] [ info] nrfjprog version 10.12.1 
+[2020-Dec-23 14:49:02] [ info] --------------------------------------------------------------------------------
+[2020-Dec-23 14:49:02] [debug] [ nRF0x0] - open_dll
+[2020-Dec-23 14:49:02] [ info] [ nRF0x0] - Load library at /Applications/Nordic Semiconductor/nrfjprog/libjlinkarm_unknown_nrfjprogdll.dylib.
+[2020-Dec-23 14:49:02] [ info] [ nRF0x0] - Library loaded, loading member functions.
+[2020-Dec-23 14:49:02] [ info] [ nRF0x0] - Member functions succesfully loaded.
+[2020-Dec-23 14:49:02] [ info] [Backend] - Logger callback at 0x10c643300 registered in Segger backend logger.
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] Logger callback at 0x10c643300 registered in JLink logger.
+[2020-Dec-23 14:49:02] [debug] [nRFUnknown] - Just_open_dll_tagged_callback
+[2020-Dec-23 14:49:02] [debug] [Backend] - open_dll
+[2020-Dec-23 14:49:02] [ info] [Backend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2020-Dec-23 14:49:02] [ info] [Backend] - Load library at /Applications/SEGGER/JLink/libjlinkarm.dylib.
+[2020-Dec-23 14:49:02] [ info] [Backend] - Library loaded, loading member functions.
+[2020-Dec-23 14:49:02] [ info] [Backend] - Member functions succesfully loaded.
+[2020-Dec-23 14:49:02] [debug] [Backend] - dll_version
+[2020-Dec-23 14:49:02] [ info] [Backend] - Segger dll version 6.88.a loaded.
+[2020-Dec-23 14:49:02] [debug] [Backend] - set_core_data
+[2020-Dec-23 14:49:02] [debug] [ nRF0x0] - enum_emu_snr
+[2020-Dec-23 14:49:02] [debug] [nRFUnknown] - Just_enum_emu_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - enum_emu_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_enum_emu_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_get_num_emus
+[2020-Dec-23 14:49:02] [debug] [ nRF0x0] - connect_to_emu_with_snr
+[2020-Dec-23 14:49:02] [debug] [nRFUnknown] - Just_connect_to_emu_with_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - connect_to_emu_with_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_enum_emu_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_get_num_emus
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_connect_to_emu_with_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_connect_to_emu_without_snr
+[2020-Dec-23 14:49:02] [ info] [Backend] - Segger logging enabled.
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] Firmware: J-Link OB-SAM3U128-V2-NordicSemi compiled Mar 17 2020 14:43:00
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] Hardware: V1.00
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] S/N: 683048752
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] OEM: SEGGER
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] TELNET listener socket opened on port 19021
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Starting webserver
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Webserver running on local port 19080
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 12.846ms returns "O.K."  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetHWStatus(...)  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.276ms returns 0  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.043ms returns 0x01  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("DisableFlashDL", ...).   
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.040ms returns 0x00  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.022ms returns 0x00  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog(...)
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.037ms returns 0  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.959ms returns 0x00  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetSpeed(2000)  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.162ms  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetSN()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.007ms returns 683048752  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_load_core_data
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("CORESIGHT_SetIndexAHBAPToUse = 0", ...).   
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.023ms returns 0x00  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("device = Cortex-M4", ...).   
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] XML file found at: /Applications/SEGGER/JLink_V688a/JLinkDevices.xml 
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] /Applications/SEGGER/JLink_V688a/JLinkDevices.xml evaluated successfully. 
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] Device "CORTEX-M4" selected.
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] Device "CORTEX-M4" selected.
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 40.824ms returns 0x00  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [debug] [ nRF0x0] - read_connected_emu_snr
+[2020-Dec-23 14:49:02] [debug] [nRFUnknown] - Just_read_connected_emu_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - read_connected_emu_snr
+[2020-Dec-23 14:49:02] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.019ms returns 0x01  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [debug] [ nRF0x0] - read_device_family
+[2020-Dec-23 14:49:02] [debug] [nRFUnknown] - Just_read_device_family
+[2020-Dec-23 14:49:02] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.030ms returns 0x01  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:02] [debug] [Backend] - read_debug_port_idr
+[2020-Dec-23 14:49:02] [debug] [Backend] - read_debug_port_register
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:02] [debug] [Backend] - coresight_configure
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_Configure()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 100.817ms returns 0  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:02] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.963ms returns -1  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [Backend] - JLinkARM.dll reported "-1", an unknown error.
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_abort_debug_action
+[2020-Dec-23 14:49:02] [ info] [Backend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.938ms returns -1  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [Backend] - JLinkARM.dll reported "-1", an unknown error.
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.039ms  
+[2020-Dec-23 14:49:02] [debug] [ nRF0x0] - close_dll
+[2020-Dec-23 14:49:02] [debug] [nRFUnknown] - Just_close_dll
+[2020-Dec-23 14:49:02] [debug] [Backend] - close
+[2020-Dec-23 14:49:02] [debug] [Backend] - disconnect_from_emu
+[2020-Dec-23 14:49:02] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.012ms returns 0x01  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_disconnect_from_emu
+[2020-Dec-23 14:49:02] [debug] [Backend] - is_connected_to_device
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsConnected()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.028ms returns FALSE  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:02] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.011ms returns 0x01  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:02] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.913ms returns -1  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [Backend] - JLinkARM.dll reported "-1", an unknown error.
+[2020-Dec-23 14:49:02] [debug] [Backend] - ---just_abort_debug_action
+[2020-Dec-23 14:49:02] [ info] [Backend] - Attempting to clear any configuration errors in debug port before closing connection. 
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x00, 0x0000001F)  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.634ms returns 0  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] - 0.017ms  
+[2020-Dec-23 14:49:02] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Close()  
+[2020-Dec-23 14:49:02] [debug] [Backend] - Segger Backend closed.
+[2020-Dec-23 14:49:46] [ info] --------------------------------------------------------------------------------
+[2020-Dec-23 14:49:46] [ info] nrfjprog --recover --log 
+[2020-Dec-23 14:49:46] [ info] nrfjprog version 10.12.1 
+[2020-Dec-23 14:49:46] [ info] --------------------------------------------------------------------------------
+[2020-Dec-23 14:49:46] [debug] [ nRF0x0] - open_dll
+[2020-Dec-23 14:49:46] [ info] [ nRF0x0] - Load library at /Applications/Nordic Semiconductor/nrfjprog/libjlinkarm_unknown_nrfjprogdll.dylib.
+[2020-Dec-23 14:49:46] [ info] [ nRF0x0] - Library loaded, loading member functions.
+[2020-Dec-23 14:49:46] [ info] [ nRF0x0] - Member functions succesfully loaded.
+[2020-Dec-23 14:49:46] [ info] [Backend] - Logger callback at 0x10dc6d300 registered in Segger backend logger.
+[2020-Dec-23 14:49:46] [ info] [  JLink] - [Info    ] [JLink     ] Logger callback at 0x10dc6d300 registered in JLink logger.
+[2020-Dec-23 14:49:46] [debug] [nRFUnknown] - Just_open_dll_tagged_callback
+[2020-Dec-23 14:49:46] [debug] [Backend] - open_dll
+[2020-Dec-23 14:49:46] [ info] [Backend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2020-Dec-23 14:49:46] [ info] [Backend] - Load library at /Applications/SEGGER/JLink/libjlinkarm.dylib.
+[2020-Dec-23 14:49:46] [ info] [Backend] - Library loaded, loading member functions.
+[2020-Dec-23 14:49:46] [ info] [Backend] - Member functions succesfully loaded.
+[2020-Dec-23 14:49:46] [debug] [Backend] - dll_version
+[2020-Dec-23 14:49:47] [ info] [Backend] - Segger dll version 6.88.a loaded.
+[2020-Dec-23 14:49:47] [debug] [Backend] - set_core_data
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - enum_emu_snr
+[2020-Dec-23 14:49:47] [debug] [nRFUnknown] - Just_enum_emu_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - enum_emu_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_enum_emu_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_get_num_emus
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [nRFUnknown] - Just_connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_enum_emu_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_get_num_emus
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_connect_to_emu_without_snr
+[2020-Dec-23 14:49:47] [ info] [Backend] - Segger logging enabled.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Firmware: J-Link OB-SAM3U128-V2-NordicSemi compiled Mar 17 2020 14:43:00
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Hardware: V1.00
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] S/N: 683048752
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] OEM: SEGGER
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] TELNET listener socket opened on port 19021
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Starting webserver
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Webserver running on local port 19080
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 11.478ms returns "O.K."  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetHWStatus(...)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.241ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.014ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("DisableFlashDL", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.011ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog(...)
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.035ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.778ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetSpeed(2000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.103ms  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetSN()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.031ms returns 683048752  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_load_core_data
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("CORESIGHT_SetIndexAHBAPToUse = 0", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.014ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("device = Cortex-M4", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] XML file found at: /Applications/SEGGER/JLink_V688a/JLinkDevices.xml 
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] /Applications/SEGGER/JLink_V688a/JLinkDevices.xml evaluated successfully. 
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Device "CORTEX-M4" selected.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Device "CORTEX-M4" selected.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 26.476ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - read_connected_emu_snr
+[2020-Dec-23 14:49:47] [debug] [nRFUnknown] - Just_read_connected_emu_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_connected_emu_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - read_device_family
+[2020-Dec-23 14:49:47] [debug] [nRFUnknown] - Just_read_device_family
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.011ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_debug_port_idr
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - coresight_configure
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_Configure()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 1.005ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.284ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x00)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x2BA01477
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.259ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [nRFUnknown] - Discovered device from family NRF52.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.019ms  
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - close_dll
+[2020-Dec-23 14:49:47] [debug] [nRFUnknown] - Just_close_dll
+[2020-Dec-23 14:49:47] [debug] [Backend] - close
+[2020-Dec-23 14:49:47] [debug] [Backend] - disconnect_from_emu
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.017ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_disconnect_from_emu
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_device
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsConnected()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.009ms returns FALSE  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.297ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x01)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0xF0000000
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.297ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms  
+[2020-Dec-23 14:49:47] [debug] [Backend] - unpower_debug_and_system_regions
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_write_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.043ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.235ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x01, 0x00000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.255ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.021ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.367ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x01)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000000
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.332ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.009ms  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Close()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - Segger Backend closed.
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - open_dll
+[2020-Dec-23 14:49:47] [ info] [ nRF0x0] - Load library at /Applications/Nordic Semiconductor/nrfjprog/libjlinkarm_nrf52_nrfjprogdll.dylib.
+[2020-Dec-23 14:49:47] [ info] [ nRF0x0] - Library loaded, loading member functions.
+[2020-Dec-23 14:49:47] [ info] [ nRF0x0] - Member functions succesfully loaded.
+[2020-Dec-23 14:49:47] [ info] [Backend] - Logger callback at 0x10dc6d300 registered in Segger backend logger.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Logger callback at 0x10dc6d300 registered in JLink logger.
+[2020-Dec-23 14:49:47] [debug] [nRF520x0] - open
+[2020-Dec-23 14:49:47] [debug] [Backend] - open_dll
+[2020-Dec-23 14:49:47] [ info] [Backend] - No J-Link DLL path was provided. Attempting to auto detect.
+[2020-Dec-23 14:49:47] [ info] [Backend] - Load library at /Applications/SEGGER/JLink/libjlinkarm.dylib.
+[2020-Dec-23 14:49:47] [ info] [Backend] - Library loaded, loading member functions.
+[2020-Dec-23 14:49:47] [ info] [Backend] - Member functions succesfully loaded.
+[2020-Dec-23 14:49:47] [debug] [Backend] - dll_version
+[2020-Dec-23 14:49:47] [ info] [Backend] - Segger dll version 6.88.a loaded.
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [nRF520x0] - connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [debug] [Backend] - connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_enum_emu_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_get_num_emus
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_connect_to_emu_with_snr
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_connect_to_emu_without_snr
+[2020-Dec-23 14:49:47] [ info] [Backend] - Segger logging enabled.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Firmware: J-Link OB-SAM3U128-V2-NordicSemi compiled Mar 17 2020 14:43:00
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Hardware: V1.00
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] S/N: 683048752
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] OEM: SEGGER
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] TELNET listener socket opened on port 19021
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Starting webserver
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] WEBSRV Webserver running on local port 19080
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 6.261ms returns "O.K."  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetHWStatus(...)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.191ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("SetRestartOnClose = 0", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.014ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("DisableFlashDL", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.007ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("ExcludeFlashCacheRange 0x0-0xFFFFFFFF", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.005ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetHookUnsecureDialog(...)
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.020ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_TIF_Select(JLINKARM_TIF_SWD)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.672ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetSpeed(2000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.098ms  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_GetSN()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.013ms returns 683048752  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_load_core_data
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("CORESIGHT_SetIndexAHBAPToUse = 0", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.007ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("device = nRF52", ...).   
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] XML file found at: /Applications/SEGGER/JLink_V688a/JLinkDevices.xml 
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] /Applications/SEGGER/JLink_V688a/JLinkDevices.xml evaluated successfully. 
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Device "NRF52" selected.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Device "NRF52" selected.
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 25.649ms returns 0x00  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_debug_port_idr
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - coresight_configure
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_Configure()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 1.050ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.310ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x00)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x2BA01477
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.272ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms  
+[2020-Dec-23 14:49:47] [debug] [ nRF0x0] - recover
+[2020-Dec-23 14:49:47] [debug] [nRF520x0] - recover
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms returns 0x01  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:47] [debug] [nRF520x0] - Just_recover
+[2020-Dec-23 14:49:47] [debug] [nRF520x0] - Just_is_ctrl_ap_available
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.261ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x01)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0xF0000000
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.265ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 15
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x010000F0)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.245ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.309ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.317ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.295ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.317ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - write_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_write_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 0
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x01000000)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.235ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(AP reg 0x01, 0x00000001)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.264ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:47] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:47] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x02)  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] - 0.547ms returns 0  
+[2020-Dec-23 14:49:47] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x02)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.498ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_debug_reset
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_is_ctrl_ap_available
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 15
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x010000F0)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.425ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.364ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.340ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.343ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.344ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 0
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x01000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.245ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(AP reg 0x00, 0x00000001)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.290ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(AP reg 0x00, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.419ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(AP reg 0x01, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.351ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_readback_status
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_is_ctrl_ap_available
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 15
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x010000F0)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.443ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.460ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.377ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.337ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.430ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 0
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x01000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.282ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.350ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.364ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.359ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.344ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [nRF520x0] - Protection status read as NONE
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_debug_reset
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_is_ctrl_ap_available
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 15
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x010000F0)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.251ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.351ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.336ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.348ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.324ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 0
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x01000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.289ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(AP reg 0x00, 0x00000001)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.285ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(AP reg 0x00, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.339ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - write_approtect
+[2020-Dec-23 14:49:48] [ info] [nRF520x0] - Restoring UICR values to keep device unprotected.
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_read_device_version
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_readback_status
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_is_ctrl_ap_available
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 15
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x010000F0)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.384ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.348ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.358ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.334ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.360ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 0
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x01000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.281ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.350ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.334ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.350ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.350ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [nRF520x0] - Protection status read as NONE
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - is_connected_to_device
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsConnected()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.011ms returns FALSE  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_load_core_data
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("CORESIGHT_SetIndexAHBAPToUse = 0", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.004ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("device = nRF52", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Device "NRF52" selected.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Device "NRF52" selected.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.768ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Connect()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] InitTarget() start
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] InitTarget() start
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ]  J-Link Script File: Executing InitTarget() 
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] InitTarget() end
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] InitTarget() end
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Found SW-DP with ID 0x2BA01477
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Found SW-DP with ID 0x2BA01477
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] DPIDR: 0x2BA01477
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] DPIDR: 0x2BA01477
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP map detection skipped. Manually configured AP map found.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP map detection skipped. Manually configured AP map found.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP[0]: AHB-AP (IDR: Not set)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP[0]: AHB-AP (IDR: Not set)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP[0]: Core found
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP[0]: Core found
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP[0]: AHB-AP ROM base: 0xE00FF000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] AP[0]: AHB-AP ROM base: 0xE00FF000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Found Cortex-M4 r0p1, Little endian.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Found Cortex-M4 r0p1, Little endian.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] -- Max. mem block: 0x00004EE0
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000EDF0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000EDF0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE0002000)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] FPUnit: 6 code (BP) slots and 2 literal slots
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] FPUnit: 6 code (BP) slots and 2 literal slots
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000EDFC)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000EDFC)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE0001000)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE0001000)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000ED88)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000ED88)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000ED88)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000ED88)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CoreSight components:
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CoreSight components:
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0] @ E00FF000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0] @ E00FF000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(64 bytes @ 0xE00FF000)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(32 bytes @ 0xE000EFE0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(32 bytes @ 0xE0001FE0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(32 bytes @ 0xE0002FE0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(32 bytes @ 0xE0000FE0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 003BB001 ITM
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 003BB001 ITM
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(32 bytes @ 0xE0040FE0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][4]: E0040000, CID: B105900D, PID: 000BB9A1 TPIU
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][4]: E0040000, CID: B105900D, PID: 000BB9A1 TPIU
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(32 bytes @ 0xE0041FE0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][5]: E0041000, CID: B105900D, PID: 000BB925 ETM
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] ROMTbl[0][5]: E0041000, CID: B105900D, PID: 000BB925 ETM
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 129.759ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORE_GetFound()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.011ms returns 0xE0000FF  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_invalidate_cache
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("InvalidateCache", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.124ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ReadMemU32(0x10000130, 0x1 Items)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0x10000130)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Data:  08 00 00 00
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.783ms returns 1 (0x1)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_invalidate_cache
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("InvalidateCache", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ReadMemU32(0x10000134, 0x1 Items)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0x10000134)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Data:  03 00 00 00
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.596ms returns 1 (0x1)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_decode_device_version
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_invalidate_cache
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("InvalidateCache", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.007ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ReadMemU32(0x10000110, 0x1 Items)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0x10000110)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Data:  00 04 00 00
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.592ms returns 1 (0x1)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [nRF520x0] - NRF52840 REV2 does not implement updated APPROTECT mechanism.
+[2020-Dec-23 14:49:48] [debug] [Backend] - halt
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_halt
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Halt()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 6.606ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - sys_reset
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_halt
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Halt()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.716ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_sys_reset
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_SetResetType(JLINKARM_CM3_RESET_TYPE_CORE_AND_PERIPHERALS)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.019ms returns JLINKARM_CM3_RESET_TYPE_NORMAL  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Reset()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000EDF0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000EDFC)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Reset: Halt core after reset via DEMCR.VC_CORERESET.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Reset: Halt core after reset via DEMCR.VC_CORERESET.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Reset: Reset device via AIRCR.SYSRESETREQ.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Reset: Reset device via AIRCR.SYSRESETREQ.
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000ED0C)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000EDF0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000EDF0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000EDF0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000EDFC)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000EDF0)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE0002000)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE000EDFC)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0xE0001000)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 75.727ms  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_power_ram_all
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_readback_status
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_is_ctrl_ap_available
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 255, AP Bank 15
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x010000F0)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.277ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.318ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.318ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.296ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.304ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 0
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x01000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.244ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.311ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.417ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.387ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.389ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [nRF520x0] - Protection status read as NONE
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000904, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000904)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 1.511ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000914, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000914)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.586ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000924, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000924)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.592ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000934, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000934)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.564ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000944, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000944)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.574ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000954, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000954)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.574ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000964, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000964)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.610ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000974, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000974)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.601ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000984, 0x0000FFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000984)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.586ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_clear_resetreas
+[2020-Dec-23 14:49:48] [debug] [Backend] - write_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0x40000400, 0xFFFFFFFF)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0x40000400)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.575ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.012ms  
+[2020-Dec-23 14:49:48] [debug] [ nRF0x0] - read_device_info
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - read_device_info
+[2020-Dec-23 14:49:48] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.022ms returns 0x01  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_read_device_version
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_readback_status
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_is_ctrl_ap_available
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.303ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x01)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0xF0000040
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.303ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 15
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x010000F0)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.268ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.326ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.319ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.317ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x02880000
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.328ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 1, DP Bank 0, AP Bank 0
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x01000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.241ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.327ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.313ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.319ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_access_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_access_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(AP reg 0x03)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000001
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.322ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [nRF520x0] - Protection status read as NONE
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - is_connected_to_device
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsConnected()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms returns TRUE  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_invalidate_cache
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("InvalidateCache", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.009ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ReadMemU32(0x10000130, 0x1 Items)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0x10000130)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Data:  08 00 00 00
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.558ms returns 1 (0x1)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_invalidate_cache
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("InvalidateCache", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.006ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ReadMemU32(0x10000134, 0x1 Items)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0x10000134)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Data:  03 00 00 00
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.547ms returns 1 (0x1)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - Just_decode_device_version
+[2020-Dec-23 14:49:48] [debug] [Backend] - read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_connect_to_device
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_u32
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_invalidate_cache
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ExecCommand("InvalidateCache", ...).   
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.007ms returns 0x00  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_ReadMemU32(0x10000110, 0x1 Items)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_ReadMem(4 bytes @ 0x10000110)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Data:  00 04 00 00
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.558ms returns 1 (0x1)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.010ms  
+[2020-Dec-23 14:49:48] [debug] [ nRF0x0] - close_dll
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - close
+[2020-Dec-23 14:49:48] [debug] [Backend] - is_connected_to_emu
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsOpen()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.009ms returns 0x01  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Lock()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - close
+[2020-Dec-23 14:49:48] [debug] [Backend] - disconnect_from_emu
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_disconnect_from_emu
+[2020-Dec-23 14:49:48] [debug] [Backend] - is_connected_to_device
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_IsConnected()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.008ms returns TRUE  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.286ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x01)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0xF0000040
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.273ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [Backend] - Disable trace before closing connection.
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_u32
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_WriteU32_64(0xE000EDFC, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Debug reg: DEMCR
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] CPU_WriteMem(4 bytes @ 0xE000EDFC)
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 1.283ms returns 0 (0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:48] [ info] [Backend] - Shortcut, lock is on and debug region is powered.
+[2020-Dec-23 14:49:48] [debug] [Backend] - unpower_debug_and_system_regions
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_write_debug_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - Select AP 255, DP Bank 0, AP Bank 255
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x02, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.299ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_WriteAPDPReg(DP reg 0x01, 0x00000000)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.303ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_is_debug_region_powered
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_read_debug_port_register
+[2020-Dec-23 14:49:48] [debug] [Backend] - ---just_select_debug_port_register
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_CORESIGHT_ReadAPDPReg(DP reg 0x01)  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] Value=0x00000040
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.288ms returns 0  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_HasError()  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] - 0.012ms  
+[2020-Dec-23 14:49:48] [ info] [  JLink] - [Info    ] [JLink     ] JLINK_Close()  
+[2020-Dec-23 14:49:48] [debug] [Backend] - Segger Backend closed.
+[2020-Dec-23 14:49:48] [debug] [nRF520x0] - nRF family DLL closed
