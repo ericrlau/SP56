@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "BlueSof")(type "KiCad")(uri "${KIPRJMOD}/BlueSof.kicad_sym")(options "")(descr ""))
+  (lib (name "SM02B-SRSS-TB_LF__SN_")(type "Legacy")(uri "/Users/ericlau/Downloads/SM02B-SRSS-TB_LF__SN_ (1)/SM02B-SRSS-TB_LF__SN_.lib")(options "")(descr ""))
 )
