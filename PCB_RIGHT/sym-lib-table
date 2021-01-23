@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "BlueSof")(type "Legacy")(uri "/Users/ericlau/git/BlueSof/PCB/BlueSof.lib")(options "")(descr ""))
+)
