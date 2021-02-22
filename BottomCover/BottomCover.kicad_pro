@@ -458,12 +458,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VCC",
-        "nets": [
-          "BATT_SWITCHED",
-          "VBAT",
-          "VBUS",
-          "VDD_H"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
@@ -519,7 +514,7 @@
   },
   "sheets": [
     [
-      "fa60991b-2e68-4346-86d8-647297c1df29",
+      "0c7603bf-8e77-4f6c-9677-d39c09d2d1c9",
       ""
     ]
   ],

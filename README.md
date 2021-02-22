@@ -4,7 +4,7 @@
 Flash bootloader
 From nrfmicro firmware folder
 $ nrfjprog --recover --log
-$ nrfjprog -f nrf52 --program pca10056_bootloader-0.2.11_s140_6.1.1.hex --sectorerase
+$ nrfjprog -f nrf52 --program firmware/bootloader/pca10056_bootloader-0.2.11_s140_6.1.1.hex --sectorerase
 
 ------------------------------------
 ## Modifications from original Discipline 
