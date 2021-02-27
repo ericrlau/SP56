@@ -2,30 +2,45 @@
 
   (paper "A4")
 
+  (title_block
+    (title "SP56")
+    (date "2021-02-27")
+    (rev "1")
+    (company "CO Boards")
+    (comment 1 "github.com/ericrlau")
+  )
+
   (lib_symbols
   )
 
 
-  (sheet (at 27.686 69.088) (size 58.42 45.72)
+  (text "Left Side" (at 33.02 66.04 0)
+    (effects (font (size 10.008 10.008) (thickness 2.0016) bold) (justify left bottom))
+  )
+  (text "Right Side" (at 184.15 66.04 0)
+    (effects (font (size 10.008 10.008) (thickness 2.0016) bold) (justify left bottom))
+  )
+
+  (sheet (at 39.116 69.088) (size 58.42 45.72)
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid 774bc403-1a33-453c-ba73-750d88cf0527)
-    (property "Sheet name" "SP56_Left" (id 0) (at 27.686 68.4521 0)
+    (property "Sheet name" "SP56_Left" (id 0) (at 39.116 68.4521 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "SP56_Left.kicad_sch" (id 1) (at 27.686 115.3169 0)
+    (property "Sheet file" "SP56_Left.kicad_sch" (id 1) (at 39.116 115.3169 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 92.456 69.088) (size 60.198 46.228)
+  (sheet (at 194.056 69.088) (size 60.198 46.228)
     (stroke (width 0.001) (type solid) (color 132 0 132 1))
     (fill (color 255 255 255 0.0000))
     (uuid d6d34a55-f565-4382-a427-c6f40a370b00)
-    (property "Sheet name" "SP56_Right" (id 0) (at 92.456 68.4521 0)
+    (property "Sheet name" "SP56_Right" (id 0) (at 194.056 68.4521 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "SP56_Right.kicad_sch" (id 1) (at 92.456 115.8249 0)
+    (property "Sheet file" "SP56_Right.kicad_sch" (id 1) (at 194.056 115.8249 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
