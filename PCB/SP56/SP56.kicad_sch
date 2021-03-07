@@ -106,9 +106,6 @@
     (path "/774bc403-1a33-453c-ba73-750d88cf0527/664a8bfe-745d-4df8-87aa-41bf903b25f2"
       (reference "BATT1") (unit 1) (value "SW_SPDT") (footprint "BlueSof:SW-TH_MSK12C02")
     )
-    (path "/774bc403-1a33-453c-ba73-750d88cf0527/5539aba6-d545-4276-bd45-06300e952675"
-      (reference "BattJumper1") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
-    )
     (path "/774bc403-1a33-453c-ba73-750d88cf0527/0706d0bf-8b60-4b44-bec5-70eff9db190c"
       (reference "C1") (unit 1) (value "22pF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -129,6 +126,9 @@
     )
     (path "/774bc403-1a33-453c-ba73-750d88cf0527/60e293d0-ffd6-4b3f-b20f-21e3905fc3e9"
       (reference "C7") (unit 1) (value ".1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/774bc403-1a33-453c-ba73-750d88cf0527/7c85e45b-77ac-45b5-8888-4caaf8f378b0"
+      (reference "C8") (unit 1) (value "4.7nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/774bc403-1a33-453c-ba73-750d88cf0527/f3e0cabd-d8e9-4234-9ee3-1771bbe2977b"
       (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-123")
@@ -267,6 +267,9 @@
     )
     (path "/774bc403-1a33-453c-ba73-750d88cf0527/64360d89-a3e1-4df7-8ca2-3d1552d211ac"
       (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/774bc403-1a33-453c-ba73-750d88cf0527/f3e8c34f-9b25-4360-ba1d-4600f0f013d5"
+      (reference "R3") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/774bc403-1a33-453c-ba73-750d88cf0527/61f99171-45fb-45da-b25d-99f49d47d52d"
       (reference "R4") (unit 1) (value "820k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -439,8 +442,8 @@
     (path "/d6d34a55-f565-4382-a427-c6f40a370b00/6e71cf60-3cf4-4b10-85b3-1193be997780"
       (reference "BATT101") (unit 1) (value "SW_SPDT") (footprint "BlueSof:SW-TH_MSK12C02")
     )
-    (path "/d6d34a55-f565-4382-a427-c6f40a370b00/6a519da7-1974-4a2b-bc8b-e6d8ee3f3d72"
-      (reference "BattJumper101") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    (path "/d6d34a55-f565-4382-a427-c6f40a370b00/7a6ddae3-902b-49df-b666-c1599ef51232"
+      (reference "C9") (unit 1) (value "4.7nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d6d34a55-f565-4382-a427-c6f40a370b00/584b49d6-ba72-44f2-ad7e-6713a1808adb"
       (reference "C101") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -594,6 +597,9 @@
     )
     (path "/d6d34a55-f565-4382-a427-c6f40a370b00/9b9b397b-0fde-42d5-9c22-bbd1bdad3af9"
       (reference "Q102") (unit 1) (value "A03407") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/d6d34a55-f565-4382-a427-c6f40a370b00/5442d0ca-8b5c-42a7-9874-75285db8f956"
+      (reference "R10") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d6d34a55-f565-4382-a427-c6f40a370b00/03a22070-d808-4d9c-b19f-8f039c98ed3f"
       (reference "R101") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")

@@ -61,8 +61,8 @@
       37,
       38
     ],
-    "visible_layers": "0005a70_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "000da70_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "SP56.kicad_prl",
