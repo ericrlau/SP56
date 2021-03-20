@@ -54,7 +54,7 @@
     (pad_to_mask_clearance 0)
     (grid_origin 106.1 9.1)
     (pcbplotparams
-      (layerselection 0x00012fc_ffffffff)
+      (layerselection 0x00012e8_7fffffff)
       (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
@@ -66,7 +66,7 @@
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin true)
+      (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15.000000)
@@ -80,11 +80,11 @@
       (plotinvisibletext false)
       (sketchpadsonfab false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/")
+      (outputdirectory "images/")
     )
   )
 
@@ -1985,7 +1985,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/EC11-THT-15F-black.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/EC11-THT-15F-black.step"
       (offset (xyz 7.4 -2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 90))
@@ -2872,7 +2872,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/EC11-THT-15F-black.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/EC11-THT-15F-black.step"
       (offset (xyz 7.4 -2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 90))
@@ -5156,7 +5156,7 @@
       (net 5 "/SP56_Right/VBAT") (pinfunction "2") (tstamp c12961db-2830-4010-a098-d5e55e6f6dcd))
     (pad "3" smd rect (at -1.8 -1.9 270) (locked) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp d30696e1-b829-43f9-8ec3-6c97f1b93c71))
     (pad "4" smd rect (at 1.8 -1.9 270) (locked) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 1c9eb6d4-d283-4ae3-8d28-5d980c3d64b7))
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/SM02B-SRSS-TB_LF__SN_.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/SM02B-SRSS-TB_LF__SN_.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5504,7 +5504,7 @@
       (net 162 "unconnected-(U2-Pad42)") (pinfunction "P1.06") (tstamp b56f814f-c8c1-4d69-8921-97a23ba8d487))
     (pad "43" smd rect (at -6.5 -7.015) (locked) (size 2 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 21 "/SP56_Left/row4") (pinfunction "P0.10/NFC2") (tstamp 4a0adaa9-a778-44a1-9115-819c9c490ed3))
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/E73-2G4M08S1C.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/E73-2G4M08S1C.step"
       (offset (xyz -0.05 7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -5834,7 +5834,7 @@
       (net 3 "/SP56_Left/VBAT") (pinfunction "2") (tstamp df68971f-a4a0-47ee-9908-4381d3bfe987))
     (pad "3" smd rect (at -1.8 -1.9 90) (locked) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp dda8b11f-d88d-4fb6-9776-c9f43757ced4))
     (pad "4" smd rect (at 1.8 -1.9 90) (locked) (size 1.2 1.8) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 963a567f-e9ec-4a49-b8e8-eee1eb433b33))
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/SM02B-SRSS-TB_LF__SN_.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/SM02B-SRSS-TB_LF__SN_.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -5886,7 +5886,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/MSK12C02.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/MSK12C02.step"
       (offset (xyz 0.1 -0.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -7949,7 +7949,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))
     )
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/USB-C-C168688.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/USB-C-C168688.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -8171,7 +8171,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/MSK12C02.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/MSK12C02.step"
       (offset (xyz 0.1 -0.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -8461,7 +8461,7 @@
       (net 175 "unconnected-(U102-Pad42)") (pinfunction "P1.06") (clearance 0.15) (tstamp 210b1bc0-23bd-440b-bc80-43db67c664c3))
     (pad "43" smd rect (at -6.5 -7.015) (locked) (size 2 0.8) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 47 "/SP56_Right/row4") (pinfunction "P0.10/NFC2") (tstamp 568473dd-cabe-4e61-90ee-009f0053c9c0))
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/E73-2G4M08S1C.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/E73-2G4M08S1C.step"
       (offset (xyz -0.05 7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -8557,7 +8557,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -180))
     )
-    (model "/Users/ericlau/git/BlueSof/PCB/3d/USB-C-C168688.step"
+    (model "/Users/ericlau/git/SP56/PCB/3d/USB-C-C168688.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))

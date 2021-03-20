@@ -1,60 +1,50 @@
-# BlueSof - A BLE Keyboard Inspired By Sofle
+# SP56
+##A ZMK-Powered BLE Keyboard, Inspired By Lily58 & Sofle
 
 
-Flash bootloader
-From nrfmicro firmware folder
-$ nrfjprog --recover --log
-$ nrfjprog -f nrf52 --program firmware/bootloader/pca10056_bootloader-0.2.11_s140_6.1.1.hex --sectorerase
+## Flash bootloader
+Bootloader is pre-loaded on assembled pcbs. If you source your own BLE module you will need to unlock the module and flash the bootloader using the Nordic nrf command line tool. 
+```
+$ nrfjprog --recover --log 
+```
+```
+$ nrfjprog -f nrf52 --program firmware/bootloader/COBO_nrf52840_bootloader-0.3.2-184-g64ea299_s140_6.1.1.hex
+```
 
 ------------------------------------
-## Modifications from original Discipline 
+## Upload Firmware 
 
-- Add numpad on right.
-- Move arrow keys 0.25U down and right, similar to 1800 layout. 
-- Adjust component layout on top of board, moving ATMega and buttons to the right, adding in more diodes in center. 
-- Removed ~, Delete, Page Up, Page Down keys. These will be on alternate layer. 
-- Created Digikey version of BOM, found here: https://octopart.com/bom-tool/AgAHKWUi
+- See ZMK docs for instructions on setting up ZMK and custimizing firmware.  
+	* https://zmkfirmware.dev/docs/user-setup/
+	* https://zmkfirmware.dev/docs/customization 
+- Default *.uf2 files are pre-loaded on assembled pcbs. If you sourced and assembled your own pcb, you can file deafult pre-built firmware here: 
+	- https://github.com/ericrlau/COBO-zmk-config/releases
 
+## PCB
+- Source files for pcb are in this repo. They are split into three kicad projects:
+	- SP56: main pcb, left and right combined. 
+	- SP56_Bottom: Bottom cover PCB. Left and right use the same part so only one copy is created. 
+	- SP56_Plate: Switch plate PCB. This must be 1.2mm pcb to allow Kaihl Choc V1 switches to snap in. Left and right use the same part so only one copy is created. 
+- NOTE: KiCad files are created with nightly KiCad 5.99 builds, they are not compatible with current stable release of KiCad 5.
 
 ## ToDo 
-- Adjust acrylic foot design to be wider, it looks a little thin. 
-- add Via support
-- Next order of PCBs: 
-	- Adjust #DISCIPLINE logo in space bar area so that it doesn't overlap stablaizer. [Image](./images/knownIssues/Logoplacement.jpg)
-	- Omit job number silk screen from vendor.[Plate](./images/knownIssues/plate.jpg) [Main](./images/knownIssues/jobNumMain.jpg) [Bottom](./images/knownIssues/jobNumBottom.jpg) 
-	- Improve surface finish on black solder mask, some dark spots. [Image](./images/knownIssues/surfaceFinish.jpg) 
-	- Remove drills from FR4 switch plate. [Image](./images/knownIssues/plate.jpg)
+- adjust power switch pins on one side so that the switch on positions aren't mirrored on left and right. 
 
 
 ## Images
 
 #### Prototype Build
-![](./images/SampleBuild/top.jpg)
-![](./images/SampleBuild/threequarter.jpg)
-![](./images/SampleBuild/side.jpg)
-![](./images/SampleBuild/bottom.jpg)
-![](./images/SampleBuild/MainPCBs.jpg)
-![](./images/SampleBuild/PopulatedBoard.jpg)
-![](./images/SampleBuild/PopulatedBoardWithSwitches.jpg)
-
-
-
-#### Layout
-![](./images/NumDiscipline-layout.jpg)
 
 #### Main PCB
-![](./images/NumDiscipline-pcb-front.png)
-
-![](./images/NumDiscipline-pcb-back.png)
-
-![](./images/NumDiscipline-layers.png)
+![Main TOP](./PCB/SP56/images/SP56_TOP.jpg)
+![Main BOTTOM](./PCB/SP56/images/SP56_BOTTOM.jpg)
 
 #### FR4 Plate
-![](./images/NumDiscipline-plate-front.png)
+![Bottom Cover](./PCB/SP56_Plate/images/SP56_Plate.jpg)
 
 #### Bottom PCB
-![](./images/NumDiscipline-bottom-front.png)
+![Bottom Cover](./PCB/SP56_Bottom/images/SP56_BottomCover.jpg)
 
-![](./images/NumDiscipline-bottom-back.png)
+
 
 
