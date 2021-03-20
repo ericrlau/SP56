@@ -168,7 +168,7 @@
         "silk_overlap|340716666|6683333|9c46959c-3bbf-4c36-bd73-79638a58210a|57a117f1-67a3-489a-9df9-8a8d4f36ea72"
       ],
       "meta": {
-        "version": 1
+        "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
@@ -222,11 +222,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0
+        "min_via_diameter": 0.39999999999999997
       },
       "track_widths": [
         0.0,

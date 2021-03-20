@@ -1,4 +1,4 @@
-(kicad_pcb (version 20210108) (generator pcbnew)
+(kicad_pcb (version 20210228) (generator pcbnew)
 
   (general
     (thickness 1.6)
@@ -51,6 +51,7 @@
       (copper_finish "None")
       (dielectric_constraints no)
     )
+    (pad_to_mask_clearance 0)
     (grid_origin 106.1 9.1)
     (pcbplotparams
       (layerselection 0x00012fc_ffffffff)
