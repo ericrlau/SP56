@@ -1,7 +1,7 @@
 # SP56
-##A ZMK-Powered BLE Keyboard, Inspired By Lily58 & Sofle
+## A ZMK-Powered BLE Keyboard, Inspired By Lily58 & Sofle
 
-
+> :warning: **This is an untested project.** Do not use to create your own copy unless you are willing to debug the hardware and/or firmware. 
 ## Flash bootloader
 Bootloader is pre-loaded on assembled pcbs. If you source your own BLE module you will need to unlock the module and flash the bootloader using the Nordic nrf command line tool. 
 ```
@@ -25,9 +25,10 @@ $ nrfjprog -f nrf52 --program firmware/bootloader/COBO_nrf52840_bootloader-0.3.2
 	- SP56: main pcb, left and right combined. 
 	- SP56_Bottom: Bottom cover PCB. Left and right use the same part so only one copy is created. 
 	- SP56_Plate: Switch plate PCB. This must be 1.2mm pcb to allow Kaihl Choc V1 switches to snap in. Left and right use the same part so only one copy is created. 
-- NOTE: KiCad files are created with nightly KiCad 5.99 builds, they are not compatible with current stable release of KiCad 5.
-
+	- NOTE: KiCad files are created with nightly KiCad 5.99 builds, they are not compatible with current stable release of KiCad 5.
+- Bill of materials [Link](./PCB/SP56/bom/ibom.html)
 ## ToDo 
+- Test prototypes. 
 - adjust power switch pins on one side so that the switch on positions aren't mirrored on left and right. 
 
 
