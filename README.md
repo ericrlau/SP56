@@ -1,7 +1,7 @@
 # SP56
 ## A ZMK-Powered BLE Keyboard, Inspired By Lily58 & Sofle
 
-> :warning: **This is an untested project.** Do not use to create your own copy unless you are willing to debug the hardware and/or firmware. 
+> :warning: **This is a partially tested project.** Do not use to create your own copy unless you are willing to debug the hardware and/or firmware. 
 ## Flash bootloader
 Bootloader is pre-loaded on assembled pcbs. If you source your own BLE module you will need to unlock the module and flash the bootloader using the Nordic nrf command line tool. 
 ```
