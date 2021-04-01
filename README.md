@@ -26,15 +26,18 @@ $ nrfjprog -f nrf52 --program firmware/bootloader/COBO_nrf52840_bootloader-0.3.2
 	- SP56_Bottom: Bottom cover PCB. Left and right use the same part so only one copy is created. 
 	- SP56_Plate: Switch plate PCB. This must be 1.2mm pcb to allow Kaihl Choc V1 switches to snap in. Left and right use the same part so only one copy is created. 
 	- NOTE: KiCad files are created with nightly KiCad 5.99 builds, they are not compatible with current stable release of KiCad 5.
-- Bill of materials [Link](https://raw.githack.com/ericrlau/SP56/working/PCB/SP56/bom/ibom.html)
-## ToDo 
-- Test prototypes. 
-- adjust power switch pins on one side so that the switch on positions aren't mirrored on left and right. 
+- Bill of materials [BOM Link](https://raw.githack.com/ericrlau/SP56/working/PCB/SP56/bom/ibom.html)
+## Build Guide For PCBA
+[Build Guide Link](./Build_Guide.md)
 
 
 ## Images
 
 #### Prototype Build
+<img src="./images/Assembled.JPG" alt="drawing" width="800"/>
+<img src="./images/Main_PCB 2.jpg" alt="drawing" width="800"/>
+<img src="./images/PCBs.jpg" alt="drawing" width="800"/>
+
 
 #### Main PCB
 ![Main TOP](./PCB/SP56/images/SP56_TOP.jpg)
