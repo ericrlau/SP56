@@ -1,7 +1,7 @@
 # SP56
 ## Build Guide (From PCBA)
 
-> :Warning: **This is a partially tested project.** Do not use to create your own copy unless you are willing to debug the hardware and/or firmware. 
+> :warning: **This is a partially tested project.** Do not use to create your own copy unless you are willing to debug the hardware and/or firmware. 
 
 ---
 ## What You'll Need
